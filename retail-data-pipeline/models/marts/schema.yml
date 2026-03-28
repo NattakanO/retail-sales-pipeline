@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: metrics_daily_sales
+    columns:
+      - name: daily_revenue
+        tests:
+          - not_null
+      - name: order_date
+        tests:
+          - not_null

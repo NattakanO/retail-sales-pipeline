@@ -1,0 +1,25 @@
+name: retail-data-pipeline
+version: "1.0"
+
+profile: retail_data_pipeline
+
+seed-paths: ["seeds"]
+model-paths: ["models"]
+macro-paths: ["macros"]
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+seeds:
+  # Builds seeds into '<your_schema_name>_raw'
+  retail-data-pipeline:
+    +schema: raw
+
+models:
+  retail-data-pipeline:
+    +static_analysis: strict
+    # Materialize staging models as views, and marts as tables
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table
