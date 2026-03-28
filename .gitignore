@@ -1,0 +1,14 @@
+# Conda
+/retail-pipeline/ 
+
+# Python
+__pycache__/
+*.pyc
+.DS_Store
+*.json 
+
+.vscode/
+.idea/
+logs/
+
+

@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: retail
+    database: retail-data-pipeline-491508
+    schema: retail
+    quoting:
+      database: false
+      schema: false
+      identifier: true # Quotes table/column names → case-sensitive!
+    tables:
+      - name: raw_orders
+        columns:
+          - name: UnitPrice
+          - name: Quantity
+          - name: InvoiceDate
