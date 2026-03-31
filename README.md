@@ -23,7 +23,7 @@
 
 ## Data Flow (ELT)
 
-![Data_flow](../assets/flow.png)
+![Data_flow](assets/flow.png)
 
 ## Data Models
 
@@ -105,9 +105,9 @@ order_date | Country | orders | daily_revenue | avg_order_value
 
 ## Dashboard
 
-![Dashboard](../assets/report.png)
-![Dashboard](../assets/top10-part1.png)
-![Dashboard](../assets/top10-part2.png)
+![Dashboard](assets/report.png)
+![Dashboard](assets/top10-part1.png)
+![Dashboard](assets/top10-part2.png)
 
 ### Summary
 
