@@ -5,21 +5,27 @@
 ## Dataset
 
 **Source**: UCI Machine Learning Repository
+
 **Name**: Online Retail
+
 **Transactions**: 541,909 rows (Dec 1, 2010 - Dec 9, 2011)
+
 **Company**: UK-based online gift retailer
+
 **Customers**: Wholesalers + individuals (4,337 unique)
+
 **Revenue**: ~8.18M total
-| Column | Type | Description |
-| ----------- | ---------------- | ------------------------------- |
-| InvoiceNo | STRING | Transaction ID (C\* = cancelled) |
-| StockCode | STRING | Product code |
-| Description | STRING | Product name |
-| Quantity | STRING→INT | Items per line |
-| InvoiceDate | STRING→TIMESTAMP | MM/DD/YYYY HH:MM |
-| UnitPrice | STRING→FLOAT | £ per item |
-| CustomerID | STRING | Customer key |
-| Country | STRING | Billing country |
+
+| Column      | Type             | Description                      |
+| ----------- | ---------------- | -------------------------------- |
+| InvoiceNo   | STRING           | Transaction ID (C\* = cancelled) |
+| StockCode   | STRING           | Product code                     |
+| Description | STRING           | Product name                     |
+| Quantity    | STRING→INT       | Items per line                   |
+| InvoiceDate | STRING→TIMESTAMP | MM/DD/YYYY HH:MM                 |
+| UnitPrice   | STRING→FLOAT     | £ per item                       |
+| CustomerID  | STRING           | Customer key                     |
+| Country     | STRING           | Billing country                  |
 
 ## Data Flow (ELT)
 

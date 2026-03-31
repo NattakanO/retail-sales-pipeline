@@ -6,7 +6,7 @@ __pycache__/
 *.pyc
 .DS_Store
 *.json 
-
+*.csv
 .vscode/
 .idea/
 logs/
