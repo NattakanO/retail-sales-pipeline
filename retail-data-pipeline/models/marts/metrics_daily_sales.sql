@@ -1,7 +1,7 @@
 {{ config(materialized='table') }}
 
 select
-  DATE(order_timestamp) as order_date,  -- TIMESTAMP → DATE
+  DATE(order_timestamp) as order_date,  
   Country,
   count(distinct InvoiceNo) as orders,
   count(*) as order_lines,
